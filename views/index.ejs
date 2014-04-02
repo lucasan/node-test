@@ -1,0 +1,26 @@
+{{ include head  }}
+
+<h1>{{= title }}</h1>
+
+<form id="getvideourl" action="/" method="post">
+
+<div>
+	<label for="url_input">Url del video</label>
+	<input type="text" size="50" id="url_input" name="url_input">
+	<input type="submit" value="Enviar url">
+</div>
+
+</form>
+
+<div id="video">
+
+</div>
+
+<div>
+	<ul id="playlist">
+	
+	</ul>
+</div>
+
+
+{{ include footer  }}
